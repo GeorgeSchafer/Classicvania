@@ -1,38 +1,13 @@
 import { ENVIRONMENTS } from './Constants.mjs'
-import { SquareFrame } from './libs/PhaserHelpers/Frame.mjs'
+import {
+    SquareFrame,
+    EnvironmentImage,
+    EnvironmentTileset,
+    Environment
+} from './libs/PhaserHelpers/PhaserHelpers.mjs'
 
 
 
-class EnvironmentImage
-{
-    constructor(path, width, height)
-    {
-        this.path = path
-        this.width = width
-        this.height = height
-    }
-}
-
-class EnvironmentTileset
-{
-    constructor()
-    {
-        this.alias = alias
-        this.path = path
-        this.fram = frame
-    }
-}
-
-class Environment
-{
-    constructor(background=null, decor=null, layers=[], props=null)
-    {
-        this.background = background
-        this.decor = decor
-        this.layers = layers
-        this.props = props
-    }
-}
 
 const cemetary = new Environment(
     new EnvironmentImage(
