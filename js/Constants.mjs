@@ -1,10 +1,24 @@
+import {
+    heroine
+} from './Characters.mjs'
+import {
+    cemetary
+} from './Environments.mjs'
 
-const ENVIRONMENTS = {
-    cemetary: {
-        background: 'assets/Environments/cemetary/background.png',
-        tileset: 'assets/Environments/cemetary/cemetary.tileset.json',
-        layer1: 'Environments/cemetary/mountains.png',
-        layer2: 'Environments/cemetary/graveyard.png',
-        props: 'assets/Environments/cemetary/props.tileset.json'
-    }
+const ASSETS = '/assets/'
+
+const ENVIRONMENTS = ASSETS + 'Environments/'
+const CHARACTERS = ASSETS + 'Characters/'
+const ENEMIES = ASSETS + 'Enemies/'
+const FX = ASSETS + 'FX/'
+const ITEMS = ASSETS + 'Items/'
+
+export {
+    ENEMIES,
+    ENVIRONMENTS,
+    CHARACTERS,
+    FX,
+    ITEMS,
+    heroine,
+    cemetary
 }

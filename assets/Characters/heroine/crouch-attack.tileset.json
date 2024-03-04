@@ -1,10 +1,7 @@
-{ "columns":0,
- "grid":
-    {
-     "height":1,
-     "orientation":"orthogonal",
-     "width":1
-    },
+{ "columns":4,
+ "image":"crouch-attack.png",
+ "imageheight":64,
+ "imagewidth":512,
  "margin":0,
  "name":"crouch-attack",
  "spacing":0,
@@ -31,27 +28,29 @@
                  "tileid":3
                 }],
          "id":0,
-         "image":"crouch-attack\/player-crouch-attack-1.png",
-         "imageheight":64,
-         "imagewidth":128
-        }, 
-        {
-         "id":1,
-         "image":"crouch-attack\/player-crouch-attack-2.png",
-         "imageheight":64,
-         "imagewidth":128
-        }, 
-        {
-         "id":2,
-         "image":"crouch-attack\/player-crouch-attack-3.png",
-         "imageheight":64,
-         "imagewidth":128
-        }, 
-        {
-         "id":3,
-         "image":"crouch-attack\/player-crouch-attack-4.png",
-         "imageheight":64,
-         "imagewidth":128
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":31,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":77,
+                     "x":51,
+                     "y":33
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
         }],
  "tilewidth":128,
  "type":"tileset",

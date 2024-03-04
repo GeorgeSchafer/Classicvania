@@ -1,3 +1,4 @@
+import { addSprites, loadImages } from "./js/Gothicvania.mjs";
 
 
 const config = {
@@ -8,6 +9,9 @@ const config = {
         preload: preload,
         create: create,
         update: update
+    },
+    physics: {
+
     }
 };
 
@@ -15,10 +19,12 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
+    loadImages()
 }
 
 function create ()
 {
+    addSprites()
 }
 
 function update ()

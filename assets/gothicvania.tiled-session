@@ -1,0 +1,63 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "Characters/heroine",
+        ".",
+        "Characters"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Characters/heroine/attack.tileset.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/aura.tileset.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/block.tileset.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/charged-attack.tileset.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/climb.tileset.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/crawl.tileset.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/crouch-attack.tileset.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Characters/heroine/crouch.tileset.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/George/OneDrive/Workspace/Programming/JSTS/Classicvania/assets/Characters/heroine",
+    "openFiles": [
+    ],
+    "project": "gothicvania.tiled-project",
+    "recentFiles": [
+        "Characters/heroine/crouch-attack.tileset.json",
+        "Characters/heroine/crouch.tileset.json",
+        "Characters/heroine/crawl.tileset.json",
+        "Characters/heroine/climb.tileset.json",
+        "Characters/heroine/charged-attack.tileset.json",
+        "Characters/heroine/aura.tileset.json",
+        "Characters/heroine/block.tileset.json",
+        "Characters/heroine/attack.tileset.json"
+    ]
+}

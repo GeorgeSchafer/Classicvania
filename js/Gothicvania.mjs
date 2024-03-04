@@ -1,18 +1,35 @@
 import {
-    ENVIRONMENTS
-} from './Constants.mjs'
+    ENEMIES,
+    ENVIRONMENTS,
+    CHARACTERS,
+    FX,
+    ITEMS,
+    heroine,
+    cemetary
+} from 'Constants.mjs'
 import {
-    Frame,
-    Map
+    loadEnvironment,
+    loadCharacterIdle,
+    addEnvironment
 } from './libs/PhaserHelpers/PhaserHelpers.mjs'
 
 /*** Preload Images ***/
 function loadImages()
 {
-    this.load.image('background', ENVIRONMENTS.cemetary.background)
-    this.load.image('layer1', ENVIRONMENTS.cemetary.layer1)
-    this.load.image('layer2', ENVIRONMENTS.cemetary.layer2)
-    
+    loadEnvironment(cemetary)
+    loadCharacterIdle(heroine.idle)
 }
 
 
+
+/*** Create Images ***/
+function addSprites()
+{
+    addEnvironment(cemetary)
+    addCharacterIdle(heroine.idle)
+}
+
+export {
+    loadImages,
+    addSprites
+}

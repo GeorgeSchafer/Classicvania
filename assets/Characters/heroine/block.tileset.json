@@ -29,7 +29,30 @@
          "id":0,
          "image":"block\/player-block1.png",
          "imageheight":64,
-         "imagewidth":128
+         "imagewidth":128,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":37,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":38,
+                     "x":37,
+                     "y":27
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
         }, 
         {
          "animation":[
