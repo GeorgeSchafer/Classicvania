@@ -4,7 +4,7 @@ import {
     EnvironmentImage,
     EnvironmentTileset,
     Environment
-} from './libs/PhaserHelpers/PhaserHelpers.mjs'
+} from './libs/PhaserHelpers/PhaserPlatformer.mjs'
 
 
 

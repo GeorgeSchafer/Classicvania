@@ -8,10 +8,11 @@ import {
     cemetary
 } from 'Constants.mjs'
 import {
-    loadEnvironment,
     loadCharacterIdle,
+    loadEnvironment,
+    addCharacterIdle,
     addEnvironment
-} from './libs/PhaserHelpers/PhaserHelpers.mjs'
+} from './libs/PhaserHelpers/Platformer.mjs'
 
 /*** Preload Images ***/
 function loadImages()
