@@ -1,0 +1,14 @@
+{ "columns":28,
+ "image":"cemetary.tileset.png",
+ "imageheight":160,
+ "imagewidth":448,
+ "margin":0,
+ "name":"cemetary",
+ "spacing":0,
+ "tilecount":280,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

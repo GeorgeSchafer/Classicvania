@@ -1,0 +1,19 @@
+{
+  "name": "classicvania",
+  "version": "0.0.1",
+  "description": "An excercise in Phaser game creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha text --exit"
+  },
+  "keywords": [
+    "platformer",
+    "platform",
+    "game"
+  ],
+  "author": "GeorgeSchafer",
+  "license": "MIT",
+  "devDependencies": {
+    "phaser": "^3.80.1"
+  }
+}

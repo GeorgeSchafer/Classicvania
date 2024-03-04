@@ -1,0 +1,103 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"flip_back",
+ "spacing":0,
+ "tilecount":8,
+ "tiledversion":"1.10.2",
+ "tileheight":64,
+ "tiles":[
+        {
+         "animation":[
+                {
+                 "duration":100,
+                 "tileid":0
+                }, 
+                {
+                 "duration":100,
+                 "tileid":1
+                }, 
+                {
+                 "duration":100,
+                 "tileid":2
+                }, 
+                {
+                 "duration":100,
+                 "tileid":3
+                }, 
+                {
+                 "duration":100,
+                 "tileid":4
+                }, 
+                {
+                 "duration":100,
+                 "tileid":5
+                }, 
+                {
+                 "duration":100,
+                 "tileid":6
+                }, 
+                {
+                 "duration":100,
+                 "tileid":7
+                }, 
+                {
+                 "duration":100,
+                 "tileid":6
+                }],
+         "id":0,
+         "image":"Back Flip\/back-flip1.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":1,
+         "image":"Back Flip\/back-flip2.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":2,
+         "image":"Back Flip\/back-flip3.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":3,
+         "image":"Back Flip\/back-flip4.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":4,
+         "image":"Back Flip\/back-flip5.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":5,
+         "image":"Back Flip\/back-flip6.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":6,
+         "image":"Back Flip\/back-flip7.png",
+         "imageheight":64,
+         "imagewidth":128
+        }, 
+        {
+         "id":7,
+         "image":"Back Flip\/back-flip8.png",
+         "imageheight":64,
+         "imagewidth":128
+        }],
+ "tilewidth":128,
+ "type":"tileset",
+ "version":"1.10"
+}
