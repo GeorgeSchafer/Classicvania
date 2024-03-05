@@ -10,8 +10,8 @@ import {
 import {
     loadCharacterIdle,
     loadEnvironment,
-    addCharacterIdle,
-    addEnvironment
+    createCharacterIdle,
+    createEnvironment
 } from './libs/PhaserHelpers/Platformer.mjs'
 
 /*** Preload Images ***/
@@ -26,8 +26,8 @@ function loadImages()
 /*** Create Images ***/
 function addSprites()
 {
-    addEnvironment(cemetary)
-    addCharacterIdle(heroine.idle)
+    createEnvironment(cemetary)
+    createCharacterIdle(heroine.idle)
 }
 
 export {
